@@ -10,4 +10,20 @@ The folder structure is of a typical root repo, however, instead of all the JS b
   
 It contains the license information (saved as LICENSE.txt), a precompiled build (for now), and the code being in src/.  
   
-If the compiled build *is* the source code, no src/ folder is needed.
+If the compiled build *is* the source code, no src/ folder is needed.  
+  
+Example folder structure:
+```
+repo:
+  ports:
+    qbuild:
+      index.js
+      LICENSE.txt
+    v86:
+      src/
+      LICENSE.txt
+      index.js
+      index.wasm
+    packages.json
+  pkginfo.json
+```
