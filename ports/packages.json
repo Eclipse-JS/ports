@@ -1,5 +1,8 @@
 {
   "packages": {
-    
+    "minecraft": {
+      "ver": "0.1.0",
+      "path": "eags/launcher.js"
+    }
   }
 }

@@ -1,11 +1,11 @@
 {
-  "identifier": "mainRepo",
+  "identifier": "portsroot",
   "contents": [
     {
       "displayName": "Ports",
-      "name": "coreutils",
+      "name": "ports",
       "description": "owo *notices ur ports*",
-      "path": "https://ports.eclipse.greysoh.xyz/ports/"
+      "path": "ports/packages.json"
     }
   ]
 }
